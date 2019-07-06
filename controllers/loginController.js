@@ -23,7 +23,7 @@ module.exports = (req, res) => {
         }
 
         res.status(200)
-        return res.send(`Welcome ${user.username} your ID is ${user.id}`)
+        return res.send(user)
 
     } else {
 
